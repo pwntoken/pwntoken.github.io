@@ -1,0 +1,406 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  
+  <title>Economics of Web Application Security | Shritam Bhowmick</title>
+  <meta name="author" content="Shritam Bhowmick">
+  
+  <meta name="description" content="and the following isn’t discouraging!Here’s why software security would always be a growing concern for leading technologies as well as for them who depend on these technologies e.g. corporations, companies, industry, small scale businesses and at a personal level social sites too. What we are talking here isn’t related to a set of standard de-facto technology but what we are talking about is the ** economics ** of related web application software, their technologies and how they can be measured in order to provide a continious flow of quality in security.
+
+
+Almost everytime a new standard, or a technology is released - it does contain vulnerabilities. Most often, these vulnerabilities are either hunted down using platforms such as bug bounty or otherwise dealt with privately via internal security team or traded in terms of a 0day. It’s no more about how one was able to compromise the applications in order to gain/trade or protect data but how it could had or has been important to make an impact to the business in concern. Almost all technical security researchers can deal with identifying vulnerabilities and claim they had been protecting the industry - but how about measuring these vulnerabilities in terms of monetary impact to the business concerned?   This post is to talk about that corner of web application security industry which hasn’t been much appretiated but still remains the core foundation to providing real security.
+
+
+To ** quantify ** the expenditure spent due to  the presence of a vulnerability or a chain of vulnerabilities isn’t an unknown art - but it is percieved to be as the most analytical security research art and therefore requires patience and core understanding about the vulnerability - most importantly business wise in terms of quantifying them in monetary impact and also in terms of technical impact which could lead to furthur compromise or weaken a particular asset. To me there are three categories of businesses:
+
+Industrial scale business
+Retail scale business
+Personal scale business
+
+To each having it’s own valuation in the market and having said that I furthur look at asset classifications for them; which is for an example a stock market would be an industrial scale business and they might have these assets:
+
+people
+investors
+investments
+
+Now, taking the same example, it’s self-evident that people lead to processes in their business as per their role; this could be:"> 
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Economics of Web Application Security"/>
+  <meta property="og:site_name" content="Shritam Bhowmick"/>
+
+  
+    <meta property="og:image" content=""/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70812759-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70812759-1');
+</script>
+
+
+
+
+
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">Shritam Bhowmick</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class=""></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class=""></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class=""></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class=""></i>About
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/atom.xml" title="Subscribe me.">
+			  <i class=""></i>RSS
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">
+			<h1> Economics of Web Application Security</h1>
+		</div>
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <h2 id="and-the-following-isn’t-discouraging"><a href="#and-the-following-isn’t-discouraging" class="headerlink" title="and the following isn’t discouraging!"></a><em>and the following isn’t discouraging!</em></h2><p>Here’s why software security would always be a growing concern for leading technologies as well as for them who depend on these technologies e.g. corporations, companies, industry, small scale businesses and at a personal level social sites too. What we are talking here isn’t related to a set of standard de-facto technology but what we <strong>are</strong> talking about is the ** <em>economics</em> ** of related web application software, their technologies and how they can be measured in order to provide a continious flow of quality in security.</p>
+<span id="more"></span>
+
+<p>Almost everytime a new standard, or a technology is released - it <em>does</em> contain <em>vulnerabilities</em>. Most often, these vulnerabilities are either hunted down using platforms such as <em>bug bounty</em> or otherwise dealt with privately via internal security team or traded in terms of a <em>0day</em>. It’s no more about <em>how</em> one was able to compromise the applications in order to gain/trade or protect data but <em>how</em> it could had or has been important to make <em>an impact</em> to the business in concern. Almost all technical security researchers can deal with <em>identifying vulnerabilities</em> and claim they had been protecting the industry - but how about <em>measuring</em> these vulnerabilities in terms of <u><em>monetary impact to the business concerned?</em> </u>  This post is to talk about <em>that corner</em> of web application security industry which hasn’t been much appretiated but still remains the core foundation to providing <strong>real security</strong>.</p>
+<img src="http://s14.postimg.org/5u25o02td/solution.jpg" class="">
+
+<p>To ** <em>quantify</em> ** the expenditure spent due to  the presence of a vulnerability or a chain of vulnerabilities isn’t an unknown art - but it is percieved to be as the most analytical security research art and therefore requires patience and core understanding about the vulnerability - most importantly <em>business wise in terms of quantifying them in monetary impact</em> and also in terms of <em>technical impact which could lead to furthur compromise or weaken a particular asset</em>. To me there are three categories of businesses:</p>
+<ul>
+<li>Industrial scale business</li>
+<li>Retail scale business</li>
+<li>Personal scale business</li>
+</ul>
+<p>To each having it’s own valuation in the market and having said that I furthur look at asset classifications for them; which is for an example a stock market would be an industrial scale business and they might have these assets:</p>
+<ol>
+<li>people</li>
+<li>investors</li>
+<li>investments</li>
+</ol>
+<p>Now, taking the same example, it’s self-evident that <em>people</em> lead to <em>processes</em> in their business as per their role; this could be:</p>
+<ul>
+<li>HR role</li>
+<li>Employee role</li>
+<li>Adminstration role</li>
+</ul>
+<p>Furthur categorization of the targeted asset value will lead to realization that most targeted attacks should be (<em>atleast in my personal opinion</em>) Employee role and Administration role since they the people who have the keys to the technical foundation and now that it’s realized that these keys will lead to the door which weren’t meant to be open - it’s <em>seldom</em> that the <em>people in the processess</em> such as this, become the victim of attacks. At one hand, these people have the keys that lead to <em>secure access/trusted access to data</em> and then at the other hand these are the same people who are least trained to handle a security operation or not trained enough for security policies (<em>even if security policies are enforced</em>). A realistic example here could be <a target="_blank" rel="noopener" href="http://www.tripwire.com/state-of-security/incident-detection/dhs-confirms-u-s-public-utilitys-control-system-was-hacked/">compromise of U.S. PUCS SCADA</a>.</p>
+<img src="http://s8.postimg.org/hlt0gqp79/statistics_vuln_industry.jpg" class="">
+
+<p>Now let’s take for an example a <em>Retail scale business</em> which by far can be any from a cyber security company to a ecommerce based company, a a ventured start-up or a well established commercial platform. These businesses run on <em>consumers</em> that they rely on and hence the most likely target will be <em>consumers</em> and their data. Ofcourse there are other assets such as <em>employees</em> - <em>IT Department employees specifically</em>. Categorization of asset once again will lead to an evaluation of what audience target should most likely be! A realistic example here could be <a target="_blank" rel="noopener" href="http://www.techworld.com/news/e-commerce/e-bay-magento-e-commerce-platform-hacked-by-credit-card-fraudsters-3617851/">the breach of E-bay leading to credit card information exposed</a>.</p>
+<p>For the third example - <em>personal scale industries</em>, there’s social network which people rely on, small scale businesses which are growing but are striggling hard. Most targeted asset should be a single person who holds the data of value. Once this particular asset is compromised, the industry is compromised as well too. This isn’t only about the personal industry but by compromising an entire range of information also leads to affect lives of others. A more realistic scenario could be a breach where <a target="_blank" rel="noopener" href="http://edition.cnn.com/2015/08/20/us/josh-duggar-ashley-madison/">Asley Madison’s site was compromised</a> or see <a target="_blank" rel="noopener" href="http://www.huffingtonpost.com/entry/ashley-madison-hack-psychological-fallout_55d4afcee4b07addcb44f5d4?kvcommref=mostpopular&ncid=fcbklnkushpmg00000063&section=india&adsSiteOverride=in">Psychological Impact of a Sensitive Hack</a> - the one which lead to confusions with so many relationships and sometimes when it takes a techical breach to cause a havoc.  </p>
+<p>Out there is a <strong>huge</strong> economy of relatively <em>economic impact vulnerabilities</em> which are sadly either neglected or often too underestimated in evaluation and therefore ** <em>security testing</em> ** becomes a repetative failure. What could be a more wonder that a <a target="_blank" rel="noopener" href="http://www.csoonline.com/article/2943968/data-breach/hacking-team-hacked-attackers-claim-400gb-in-dumped-data.html">hacking team, the one responsible to hold security for others landing up hacked themselves</a>?</p>
+<p>Hence the study of <em>economics of web application security</em> or for that matter <em>information security</em>/<em>network security</em> or <em>application security</em> in general is <strong>that</strong> (emphasized!) important. Take-away pointers:</p>
+<ol>
+<li><p>Translate technical understanding of vulnerabilities to <strong>monetary terms</strong> or how well it can <strong>impact business in monetary terms</strong> and being able to leverage protection mechanisms against the same.</p>
+</li>
+<li><p>The first pointer will lead to effectively gain an insight of <strong>cost of vulnerabilities</strong> to the owner of the business and hence the <em>chief security officer</em> be able to develop a fair plan to chart <strong>measurements for <em>return on investments</em> (ROI)</strong>.</p>
+</li>
+<li><p>Being able to provide an accurate budget set-up on security and able to understand it’s <em>return on investment</em>, the <strong>protection mechanisms placed</strong> can be more hardened and pre-planned with <em>Red Team exercies</em>.  Assign ** <em>appropiate</em> resources** to pro-actively <strong>manage information security risks</strong>.</p>
+</li>
+</ol>
+<p>All of the aforementioned three-pointers play a vital role in an industry to access it’s security risks. Now, that we are talking about economics - the question remains how such assessments could be made easy and how <del>narrower</del> can be the road to this achievement? </p>
+<p>Answer is it <strong>takes years of expertise and understanding impact</strong> by not fueling the <strong>easy way out to vulnerabilities</strong>. I have had that taste of <strong>bug bounty programs</strong> which are mostly never meant to close the <strong>monetary impact</strong> of a particular vulnerability but instead ** <em>focus on the softer technical side</em> ** and close out the ** <em>bugs</em> **. Again, these are <em>bugs</em> and not <em>security threats as a whole</em>. Rare could be such occasions where <em>a valuable monetary vulnerability</em> has been reported. Here’s a <a target="_blank" rel="noopener" href="https://sites.google.com/site/bughunteruniversity/behind-the-scenes/charts">VRP chart from Google</a>.</p>
+<img src="https://sites.google.com/site/bughunteruniversity/_/rsrc/1422631746620/behind-the-scenes/charts/trafficdist.png" class="">
+
+<p>…  and that doesn’t really <em>motivate</em> me. </p>
+<p>Here are some quick pointers/gotcha’s from this chart alone:</p>
+<ol>
+<li><p>Monetary to <del>security researchers</del> (now that they claim to be!) for hasteful reports <a target="_blank" rel="noopener" href="https://www.bbhq.net/forums/topic/3/adobe-what-a-joke"><strong>just to gain rewards</strong></a> is a plain dis-respect to self-respect but could be professionally a no-harm’er. But tl;dr <em>the bug bounty program</em> cannot itself expect more and hence is <a target="_blank" rel="noopener" href="http://thehackernews.com/2013/10/Yahoo-bug-bounty-program-reward-vulnerability.html"><em>always gentle</em></a>.</p>
+</li>
+<li><p>Realizing a <a target="_blank" rel="noopener" href="https://www.facebook.com/notes/facebook-bug-bounty/bug-bounty-highlights-and-updates/818902394790655">percent of valid reports</a> are made and ofcourse <strong>awarded</strong> does not verify the fact that it <em>had</em> <a target="_blank" rel="noopener" href="http://shubh.am/the-deterioration-of-unmanaged-bug-bounties/">any monetary impact on the business</a>. Relaity check more vulnerabilities are dependent on each other and hence <em>often times</em> ** <em><u>a chain of vulnerabilities</u></em> ** which has to exist the same time as of depecndency of existence of others lead to a <strong>critical threat</strong>. Ofcourse, this too has a narrow window with <del>security researchers</del>.</p>
+</li>
+<li><p>It’s real that <a target="_blank" rel="noopener" href="https://www.offensive-security.com/offsec/bug-bounty-program-insights/">Perspective is everything</a> but let’s just say sometimes a persistent <em>hackerhat</em> cowboy either way does what they had always wanted to do and <a target="_blank" rel="noopener" href="https://www.exploit-db.com/papers/15823/">it’s not yet secure-proof</a> but let’s just <a target="_blank" rel="noopener" href="https://www.offensive-security.com/backtrack/offsec-web-server-hacked/">stay strong</a>.</p>
+</li>
+<li><p> … <a target="_blank" rel="noopener" href="https://medium.com/@Anonymous_India/the-truth-about-nakul-mohan-7e9c84d733c9">Really</a>?</p>
+</li>
+</ol>
+<img src="http://s27.postimg.org/yctiz01nn/reallyohmy.png" class="">
+
+<p>That’s an epic legend for a <del>security researcher</del>!</p>
+<ul>
+<li>What one <strong>should had gotten away</strong> with pointer above is this:</li>
+</ul>
+<img src="http://s21.postimg.org/j9agzia53/youget.png" class="">
+
+<ul>
+<li>… and what <a target="_blank" rel="noopener" href="http://www.ubercomp.com/posts/2014-01-16_facebook_remote_code_execution"><strong><u>an accurate security research looks like</u></strong></a> had quarter more the price economy as of the previous. I highly doubt this is the best management of crowdsourced vulnerabilities and if not - very dissapointed overall.</li>
+</ul>
+<ol start="5">
+<li>… and to add <em>Managed Bug Crowd</em> isn’t really <a target="_blank" rel="noopener" href="https://engineering.linkedin.com/security/our-private-bug-bounty-program-reducing-vulnerabilities-leveraging-expert-crowds">** <em>private</em> **</a> as claimed. It’s doorway to <em>private accessess</em> lies in keys to the kingdom of already <em>open public</em> bug bounty managed crowd sourcing and whosoever chooses to <em>obtain a minimum criteria</em> to access the private zone is able to get it - <strong>no matter how they reach there</strong> but sometimes there are <a target="_blank" rel="noopener" href="http://homakov.blogspot.in/2014/02/how-i-hacked-github-again.html">people who do what they do</a>.</li>
+</ol>
+<h2 id="problem-with-economics-of-security"><a href="#problem-with-economics-of-security" class="headerlink" title="problem with economics of security"></a><em>problem with economics of security</em></h2><p>There’s just another side of evaluating security risks and that could be the darker side. Security risk evaluation in terms of economics isn’t well defined, complete or has any standardization but there does exists methodologies and practices such as ..</p>
+<ol>
+<li>NIST</li>
+<li>OWASP</li>
+<li>WASC</li>
+<li>etc ..</li>
+</ol>
+<p>To cut short, <strong>there isn’t any magic equation to be precisely accurate</strong> about security since <strong>quantity does not equal to quality</strong> and where there is <em>quality</em>, it isn’t necessary the <em>risk is accessed by the brighter side</em>. What this means is if organizations haven’t yet taken the appropriate measures to access it’s security risks and quantify vulnerabilities in terms of:</p>
+<ol>
+<li>monetary lossess</li>
+<li>reputational losses</li>
+<li>asset informational lossess</li>
+</ol>
+<p>.. it’s an end game at the end of the day - the darker side already might have the data one is trying to protect. Hence working to ** <em>solve the security equation proactively</em> ** might just be the wisest decision a CIO could ever made.</p>
+<p>There’s solution to this existing problem and whilst escalation could be <em>internally managed and solved</em>, it isn’t always the only way and it’s necessary to understand why. Let’s solve this in the upcoming posts to come-by and stay tuned folks. One liner take-away!</p>
+<blockquote><p>Vulnerability Research and it’s Quantification in terms of monetary impact is an essential art in itself to providing better in terms of Application Security.</p>
+<footer><strong>Shritam Bhowmick</strong><cite>His Information Security Diaries.</cite></footer></blockquote>
+	  <div class="article-footer-copyright">
+
+    本博客采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议(CC BY-NC-SA 4.0) 发布.</a>
+</div>
+
+	</div>
+
+	
+	<span id="/2015/08/22/2015-08-22-economics-of-web-application-security/" class="leancloud-visitors view" data-flag-title="Economics of Web Application Security">
+		<em class="post-meta-item-text"> Page View </em> <i class="leancloud-visitors-count"></i>
+	</span>
+	
+	<div>
+  	<center>
+
+	<div class="pagination">
+
+    
+    
+    <a href="/2015/08/26/2015-08-26-web-application-security-testing/" type="button" class="btn btn-default"><i
+                class="fa fa-arrow-circle-o-left"></i> Prev</a>
+    
+
+    <a href="/" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
+    
+    <a href="/2015/07/14/2015-07-14-driving-by-dirty-octopress/" type="button" class="btn btn-default ">Next<i
+                class="fa fa-arrow-circle-o-right"></i></a>
+    
+
+    
+</div>
+
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	<!--
+<section id="comment">
+    <h2 class="title">Comments</h2>
+
+    
+</section>
+
+-->
+	
+		<section id="comments" class="comments">
+			<style>
+			.comments{margin:30px;padding:10px;background:rgb(0, 0, 0)}
+			@media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#000}}
+			</style>
+			<div id="vcomment" class="comment"></div>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+var valineConfig = {"enable":true,"appId":"xxx","appKey":"xxx","placeholder":"Test","visitor":true,"avatar":"monsterid","requiredFields":["nick","mail"]}
+valineConfig.el='#vcomment';
+new Valine(valineConfig);
+    // new Valine({
+    //     el: '#vcomment',
+    //     appId: "",
+    //     appKey: "",
+    //     placeholder: "Test",
+    //     avatar:"monsterid",
+    //     visitor: "true",
+    //     requiredFields: "nick,mail".split(','),
+    // });
+</script>
+
+		</section>
+	
+	</div> <!-- col-md-9/col-md-12 -->
+
+
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-08-22 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/Web-Application-Security/">Web_Application_Security<span>3</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+		
+
+	</div>
+	
+		
+
+</div><!-- row -->
+
+<!--
+ -->
+
+
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  
+  &copy; 2021 Shritam Bhowmick's Blog
+  
+      powered by <a href="http://hexo.io/" target="_blank">Hexo</a>.Theme <a href="https://github.com/Ares-X/hexo-theme-freemind.bithack" target="_blank">freemind.bithack</a>  
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>⬆︎TOP</span>
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+</body>
+   </html>
